@@ -40,7 +40,7 @@ npm install
 
 ## **5. Usage**
 
-you can manage your task using this app 
+you can manage your tasks using this app 
 
 ## **6. Contributing**
 
