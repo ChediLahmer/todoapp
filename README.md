@@ -21,10 +21,15 @@ Welcome to the documentation for the ToDo app! This document provides an overvie
 
 ### **3.2 API Endpoints**
 retrieve data : http://localhost:3001/tasks
+
 for progress : http://localhost:3001/tasks/{taskID}/progress
+
 edit a task : http://localhost:3001/tasks/{taskID}
+
 add a task : http://localhost:3001/tasks
+
 delete a task : http://localhost:3001/tasks/{taskID}
+
 ### **3.3 Database**
 
 mysql database
