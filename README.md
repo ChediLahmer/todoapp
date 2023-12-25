@@ -2,7 +2,7 @@
 
 Welcome to the documentation for the ToDo app! This document provides an overview of the technologies used, project structure, and how to set up and use the app.
 - [Demo](https://youtu.be/GoK9MJwVJLc)
-  ### Overview**
+  ### Overview
   ![image](https://github.com/ChediLahmer/todoapp/assets/131680831/d7e776d7-5f27-490a-9d51-2f079612d86f)
 
 ## **2. Frontend**
