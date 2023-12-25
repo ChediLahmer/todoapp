@@ -13,7 +13,7 @@ Welcome to the documentation for the ToDo app! This document provides an overvie
 - **Redux Toolkit**: Implemented for efficient state management. [Redux Toolkit Documentation](https://redux-toolkit.js.org/introduction/getting-started)
 - **TypeScript**: Used for static typing and enhanced code quality.
 - **Material-UI**: Utilized for designing UI components and achieving a polished, responsive user experience. [Material-UI Documentation](https://mui.com/material-ui/)
-
+- **Sequelize ORM**: Employed for simplifying database interactions in Node.js [Sequelize OR Documentation](https://sequelize.org/)
 ## **3. Backend**
 
 ### **3.1 Technologies Used**
