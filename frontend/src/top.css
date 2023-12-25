@@ -1,0 +1,35 @@
+.home {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; /* Adjusted from space-around to space-between */
+  margin: 0 auto; /* Center horizontally */
+  width: 37%;
+}
+
+.top-title{
+  color: #0a1629;
+  font-size: 36px;
+    font-weight: 700;
+    display:inline;
+  }
+
+.add-task-btn {
+  display: flex;
+  align-items: center;
+  background: #713fff;
+  border: none;
+  border-radius: 14px;
+  box-shadow: 0 6px 12px rgba(113,63,255,.25);
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  outline: none;
+  padding: 13px 30px;
+}
+
+.add-task-btn span {
+  margin-left: 10px;
+}
+  

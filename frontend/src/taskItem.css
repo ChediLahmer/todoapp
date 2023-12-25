@@ -1,0 +1,103 @@
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+}
+
+.priority {
+  font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.high {
+  color: red;
+}
+
+.medium {
+  color: orange
+}
+
+.low {
+ color: #0ac947;
+}
+
+
+.task{
+    color: #0a1629;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2; 
+}
+.edit-task-btn {
+  background-color: transparent;
+  border: none;
+
+}
+button:hover {
+  cursor: pointer;
+  
+}
+.progress{
+    background: hsla(217,9%,53%,.14);
+    border: none;
+    border-radius: 8px;
+    color: #7d8592;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 700;
+    outline: none;
+    padding: 7px 14px;
+
+}
+.task-item {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 35%;
+  text-align: left;
+}
+
+.task-property {
+  
+  color: #91929e;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 7px;
+  flex: 1; /* Use flex property to evenly distribute the children */
+  text-align: left; /* Adjust text alignment if needed */
+}
+
+
+.task-item .progress-circle {
+  width: 24;
+  height: 24;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+  margin: auto;
+  padding: 15px;
+  background-color: #eee;
+  border-radius: 10px; 
+}
+
+
+
+
+
+
+
+
