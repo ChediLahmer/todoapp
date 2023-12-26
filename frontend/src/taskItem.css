@@ -73,8 +73,8 @@ button:hover {
   font-size: 20px;
   font-weight: 400;
   margin-bottom: 7px;
-  flex: 1; /* Use flex property to evenly distribute the children */
-  text-align: left; /* Adjust text alignment if needed */
+  flex: 1; 
+  text-align: left; 
 }
 
 
