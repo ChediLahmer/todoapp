@@ -22,14 +22,7 @@ const Delete: React.FC = () => {
   };
 
 const handleDeleteClick = async () => {
-  // Assuming deleteState has a property named taskID
   const taskID = deleteState.taskID;
-  
-
-  
-  // Dispatch the deleteTask action
-  
-
   try {
     const result = await (dispatch as ThunkDispatch<any, any, Action<string>>)(
       deleteTaskAsync({
