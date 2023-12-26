@@ -11,7 +11,7 @@ function TodoList() {
   const { global } = useSelector(selectCombinedState);
   const { mydata } = global;
 
-  // Fetch tasks on component mount
+
   useEffect(() => {
     dispatch(fetchTasks() as any);
   }, [dispatch]);
