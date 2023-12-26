@@ -21,7 +21,7 @@ const App: React.FC = () => {
       {isOpen && <Modal />}
       {isEdited && <Edit />}
       {isDeleted && <Delete />}
-      {/* Pass taskId to Edit */}
+     
       
         <Top />
       
