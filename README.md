@@ -1,5 +1,6 @@
 ## **1. Introduction**
 this version is yet to be optimized my first time using redux toolkit and i basically create 3 states for every action after i finished i realized i could have just used one state it just did not make sense to me that i had to use 3 states but went on with it because i was short on time in the code you will find a general state sorry for the naming you could delete the edit add and the delete states and just use general keep the reducers and just on each dispatch of any of the thunk functions update the state inside the extra reducer dispatch the fetch data function and yeah i will re-write the code as soon as i get the chance too :( rookie mistake sorry
+
 Welcome to the documentation for the ToDo app! This document provides an overview of the technologies used, project structure, and how to set up and use the app.
 - [Demo](https://youtu.be/GoK9MJwVJLc)
   ### Overview
