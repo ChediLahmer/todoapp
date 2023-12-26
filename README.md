@@ -1,6 +1,4 @@
 ## **1. Introduction**
-this version is yet to be optimized my first time using redux toolkit and i basically create 3 states for every action after i finished i realized i could have just used one state it just did not make sense to me that i had to use 3 states but went on with it because i was short on time in the code you will find a general state sorry for the naming you could delete the edit add and the delete states and just use general keep the reducers and just on each dispatch of any of the thunk functions update the state inside the extra reducer dispatch the fetch data function and yeah i will re-write the code as soon as i get the chance too :( rookie mistake sorry
-
 Welcome to the documentation for the ToDo app! This document provides an overview of the technologies used, project structure, and how to set up and use the app.
 - [Demo](https://youtu.be/GoK9MJwVJLc)
   ### Overview
@@ -58,3 +56,10 @@ the app is all yours
 - [Express.js Documentation](https://expressjs.com/en/starter/installing.html)
 - [Redux Toolkit Documentation](https://redux-toolkit.js.org/introduction/getting-started)
 - [Material-UI Documentation](https://mui.com/material-ui/)
+
+Dear user,
+
+I hope this message finds you well. I wanted to bring to your attention that this version is yet to be optimized. It was my first time using Redux Toolkit, and during the development process, I created three separate states for each action. Upon completion, I realized that I could have streamlined the implementation by using a single state. Despite this realization, time constraints led me to proceed with the initial design.
+In the code, you will notice a "general" state, and I suggest that i could have deleted the "edit," "add," and "delete" states, retaining only the "general" state.i could have kept the reducers and updated the state within the extra reducers on each dispatch of any thunk function. Additionally, I could have dispatched the fetchData function after each update.
+I acknowledge the oversight and plan to refactor the code at the earliest opportunity
+Best regards,
