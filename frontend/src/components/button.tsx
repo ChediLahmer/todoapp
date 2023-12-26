@@ -4,7 +4,7 @@ import { useDispatch } from "react-redux";
 import { ThunkDispatch } from "redux-thunk";
 import { Action } from "redux";
 import { updateProgressAsync } from "../features/buttonSlice";
-import { fetchTasks } from "../features/combinedSlice"; // Assuming you have a fetchTasks action
+import { fetchTasks } from "../features/combinedSlice"; 
 
 interface ButtonProps {
   taskId: number;
@@ -17,15 +17,15 @@ const Button: React.FC<ButtonProps> = ({ taskId, progress }) => {
 
   const handleClick = async () => {
     try {
-      // Dispatch updateProgressAsync with type annotations
+    
       await (dispatch as ThunkDispatch<any, any, Action<string>>)(
         updateProgressAsync({ taskID: taskId, currentProgress: progress })
       );
 
-      // If the update is successful, fetch the updated tasks
+      
       dispatch(fetchTasks() as any);
     } catch (error : any) {
-      // Handle errors if needed
+ 
       console.error("Error updating progress:", error.message);
     }
   };
