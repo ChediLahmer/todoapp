@@ -25,7 +25,7 @@ const Modal: React.FC = () => {
   });
 
   const handleClick = (buttonNumber: number, priority: string) => {
-    dispatch(setActiveButton(buttonNumber)); // This updates the active button in the modal slice
+    dispatch(setActiveButton(buttonNumber)); 
     setSelectedButtonInfo({ number: buttonNumber, priority });
   };
 
