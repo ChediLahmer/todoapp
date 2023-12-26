@@ -150,40 +150,40 @@ li {
 
 
 
-/* Add this to your CSS styles */
+
 .modal-delete {
   display: flex;
   justify-content: center;
-  gap: 10px; /* Adjust the gap to your preference */
+  gap: 10px; 
 }
 
 .modal-delete button {
-  width: 100px; /* Adjust the width to your preference */
-  border-radius: 5px; /* Add some border-radius for a nicer look */
+  width: 100px; 
+  border-radius: 5px; 
 }
 
 .modal-delete .delete-button {
   background-color: purple;
   color: white;
-  border: 2px solid transparent; /* Make the border transparent */
+  border: 2px solid transparent; 
 }
 
-/* Remove hover effect for the delete button */
+
 .modal-delete .delete-button:hover {
   background-color: purple;
   color: white;
-  border: 2px solid transparent; /* Make the border transparent */
+  border: 2px solid transparent; 
 }
 
 .modal-delete .cancel-button {
   background-color: transparent;
   color: gray;
-  border: 2px solid gray; /* Set border color to gray */
+  border: 2px solid gray; 
 }
 
-/* Remove hover effect for the cancel button */
+
 .modal-delete .cancel-button:hover {
   background-color: transparent;
   color: gray;
-  border: 2px solid gray; /* Set border color to gray */
+  border: 2px solid gray; 
 }
